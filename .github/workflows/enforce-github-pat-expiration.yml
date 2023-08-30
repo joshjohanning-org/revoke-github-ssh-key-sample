@@ -11,7 +11,7 @@ jobs:
     - name: Check and Revoke PATs
       uses: joshjohanning/enforce-github-pat-expiration@main
       with:
-        organization: ${{ github.repository_owner }}
+        organization: joshjohanning-org-saml # ${{ github.repository_owner }}
         policy-in-days: 90
         github-token: ${{ secrets.ORG_ADMIN_TOKEN }}
         dry-run: true # change to true to not revoke any PATs
