@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check and Revoke PATs
-      uses: joshjohanning/enforce-github-pat-expiration@main
+      uses: joshjohanning/enforce-github-pat-expiration@v1
       with:
         organization: joshjohanning-org-saml # ${{ github.repository_owner }}
         policy-in-days: 90
