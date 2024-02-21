@@ -6,6 +6,8 @@ See [`.github/workflows/revoke-github-ssh-expiration.yml`](./.github/workflows/r
 
 ## Example
 
+Here's an example of what the SSH key looks like before and after it has been revoked.
+
 ### SSH key authorized to organization
 
 ![SSH key with SSO authorization to org](https://github.com/joshjohanning-org/revoke-github-ssh-key-sample/assets/19912012/893ec157-3792-47f6-9987-7bf11bc01dbb)
