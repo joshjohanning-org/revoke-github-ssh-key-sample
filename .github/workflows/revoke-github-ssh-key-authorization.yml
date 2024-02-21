@@ -1,7 +1,7 @@
 name: ⛔️ Revoke SSH key authorization policy
 on:
   schedule:
-    - cron: 0,5 * * * * # runs every 5 mins
+    - cron: 0,59 * * * * # runs every 59 mins
   workflow_dispatch:
 
 jobs:
