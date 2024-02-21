@@ -13,6 +13,7 @@ jobs:
       with:
         app-id: ${{ vars.APP_ID }}
         private-key: ${{ secrets.PRIVATE_KEY }}
+        owner: joshjohanning-org-saml # ${{ github.repository_owner }}
     - name: Check and Revoke SSH keys
       uses: joshjohanning/revoke-github-ssh-key-sso-authorization@main
       with:
