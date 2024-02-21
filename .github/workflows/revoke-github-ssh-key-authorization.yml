@@ -19,6 +19,6 @@ jobs:
       with:
         organization: joshjohanning-org-saml # ${{ github.repository_owner }}
         github-token: ${{ steps.app-token.outputs.token }} # could also use PAT with `admin:org` scope
-        dry-run: true # change to true to not revoke any SSH key
+        dry-run: false # change to true to not revoke any SSH key
         create-issue: true # change to true to create an issue and assign to the user whose SSH key is being revoked (can't be used with dry-run)
         issue-repo: ${{ github.repository }} # if create-issue is true, repo to create the issue in
